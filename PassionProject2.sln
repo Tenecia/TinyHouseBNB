@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassionProject2", "PassionProject2\PassionProject2.csproj", "{0F9AD589-2C98-498E-8200-6FAE63005E4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tinyhousebnb", "PassionProject2\tinyhousebnb.csproj", "{0F9AD589-2C98-498E-8200-6FAE63005E4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

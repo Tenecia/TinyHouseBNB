@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PassionProject2.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,9 +9,11 @@ namespace PassionProject2.Controllers
 {
     public class HomeController : Controller
     {
+        private TinyHouseEntities3 db = new TinyHouseEntities3();
+
         public ActionResult Index()
         {
-            return View();
+            return View(db.listings2.ToList());
         }
 
         public ActionResult About()
