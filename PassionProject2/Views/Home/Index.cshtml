@@ -1,6 +1,6 @@
-﻿@{
+﻿@model IEnumerable<PassionProject2.Models.listings2>
+@{
     ViewBag.Title = "Tiny House B&B";
-    @model IEnumerable<PassionProject2.Models.listings2>
 }
 
 <!DOCTYPE html>
@@ -104,7 +104,7 @@
         @foreach (var item in Model) {
             <tr>
                 <td>
-                    <img src="@Html.DisplayFor(modelItem => item.imagePath)" />
+                    <img height="175" src="@Html.DisplayFor(modelItem => item.imagePath)" />
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Description)
@@ -124,7 +124,7 @@
     </div>
             </div>
         </div>
-       
+        
     </div>
     <!-- /.container -->    
     <!-- jQuery -->

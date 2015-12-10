@@ -1,18 +1,59 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Help";
 }
 
 <html>
 <head>
     <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="box">
-<h1>Q&A</h1>
+    <div class="container">
+    <div class="row">
+        <div class="box">
+        <h3>Frequently Asked Questions</h3>
+        <div class="col-md-8">
+             <ol>
+                <li class="questionlist">
+                    <a href="#Q1">What is a Tiny House?</a>
+                </li>
+                <li class="questionlist">
+                    <a href="#Q2"> What meals are available?</a>
+                </li>
+                <li class="questionlist">
+                    <a href="#Q3"> Is smoking allowed in the houses?</a>
+                </li>
+                <li class="questionlist">
+                    <a href="#Q4"> Are pets or children allowed?</a>
+                </li>
+            </ol>
+        </div>
+        <div class="col-md-8"><img src="~/Images/logo.PNG" /></div>
+        <div class="clearfix"></div>
+       </div>
     </div>
+    <div class="box">
+        <p id="Q1>Q: What is a Tiny House?</p>
+        <p>A: A tiny house is a residential structure which is smaller than 400 square feet. Smaller homes are less expensive than larger ones in terms of taxes and building, heating, maintenance, and repair costs. In addition to costing less, small houses may encourage a less cluttered and simpler lifestyle and reduce ecological impacts for their residents.</p>
+    </div>
+    <div class="box">
+        <p id="Q2">Q: What meals are available?</p>
+        <p>A: Due to size constraints most of our hosts do not cook meals for their guests, but most provide a fully stocked kitchen for guests to use. </p>
+    </div>
+    <div class="box">
+        <p id="Q3">Q: Is smoking allowed in the houses?</p>
+        <p>A: Our hosts have decided whether or not to allow smoking in their houses. Please refer to the listing or contact the host. There will be a cleaning fee charged for smoking in a non-smoking house.</p>
+    </div>
+    <div class="box">
+        <p id="Q4">Q: Are pets or children allowed?</p>
+        <p>A: Many of our hosts are pet and child friendly, please keep in mind the accomodation limit specified on each listing. A cleaning fee may be charged for bringing a pet into a non-pet house. </p>
+    </div>
+</div>
 </body>
 </html>

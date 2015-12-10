@@ -26,7 +26,8 @@ namespace PassionProject2
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/cssBizCas/bootstrap.css","~/Content/cssBizCas/business-casual.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/StyleSheet1.css"));
         }
     }
 }

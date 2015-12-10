@@ -211,6 +211,12 @@
     <Content Include="Images\imgBizCas\slide-1.jpg" />
     <Content Include="Images\imgBizCas\slide-2.jpg" />
     <Content Include="Images\imgBizCas\slide-3.jpg" />
+    <Content Include="Images\logo.PNG" />
+    <Content Include="Images\mailbox1.jpg" />
+    <Content Include="Images\Mailbox2.png" />
+    <Content Include="Images\map_of_cleveland_oh.jpg" />
+    <Content Include="Images\Profile.jpg" />
+    <Content Include="Images\Welcome.jpg" />
     <Content Include="Models\TinyHouseListings.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>TinyHouseListings.edmx</DependentUpon>
